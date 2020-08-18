@@ -1,0 +1,128 @@
+  
+@media (max-width: 1366px) {
+    .div__contenedor-portada{
+        top: 10%;
+    }
+}
+
+@media (max-width: 1025px) {
+
+    //grilla
+    .container-grilla{
+        height: 800px;
+    }
+
+    .img-500-500{
+        width: 300px;
+        height: 400px;
+    }
+    
+    .img-500-250{
+        width: 300px;
+        height: 200px;
+    }
+    
+    .img-250-500{
+        width: 150px;
+        height: 400px;
+    }
+
+
+    // Portada
+
+    .div__p-portada{
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+}
+
+@media (max-width: 450px) {
+
+    h4{
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    // Grilla
+    
+        .container-grilla{
+            height: 650px;
+        }
+    
+        .grilla-taller{
+            grid-template-columns: 100%;
+            grid-template-areas: 
+            "img-1"
+            "img-2"
+            "img-3"
+            "img-4"
+            ;
+        }
+    
+        .img-500-500{
+            width: 300px;
+            height: 250px;
+        }
+        
+        .img-500-250{
+            width: 300px;
+            height: 200px;
+        }
+        
+        .img-250-500{
+            width: 300px;
+            height: 200px;
+        }
+    
+        .img-grid-5{
+            display: none;
+        }
+    
+        .img-grid-6{
+            display: none;
+        }
+    
+        .img-grid-7{
+            display: none;
+        }
+    
+        .img-grid-8{
+            display: none;
+        }
+            
+    // clases
+    
+        .div__contenedor-portada{
+            top: 60px;
+        }
+    
+        .div__p-portada{
+            font-size: 1rem;
+            line-height: 1.5rem;
+        }
+    
+        .div__boton-portada{
+            margin-top: 20PX;
+            font-size: 1rem;
+            padding: 5px 10px;
+        }
+    
+        .div__col-instrumentos{
+            padding: 0;
+        }
+    
+        // Instrumentos
+        
+        h1{
+            font-size: 1.4rem;
+        }
+
+        h2{
+            font-size: 1.4rem;
+        }
+
+        .fondo-instrumentos{
+            background-image: none;
+        }
+    
+    }

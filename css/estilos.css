@@ -1,0 +1,479 @@
+html {
+  scroll-behavior: smooth; }
+
+body {
+  font-family: 'Poppins', sans-serif; }
+
+a {
+  color: white;
+  padding: 0;
+  font-size: 1.5rem; }
+  a:hover {
+    text-decoration: none;
+    color: white; }
+
+.header__container {
+  padding: 0;
+  position: fixed;
+  top: 0;
+  z-index: 100; }
+
+.header__nav-logo {
+  width: 50px;
+  margin: 10px 20px; }
+
+.header__nav-prop {
+  padding: 0; }
+
+.navbar-a-prop {
+  font-size: 1.1rem;
+  padding: 10px 50px;
+  color: white;
+  opacity: 0.8; }
+  .navbar-a-prop:hover {
+    color: white;
+    text-decoration: none;
+    opacity: 1;
+    transition: all .5s; }
+
+.header__nav__div-prop {
+  display: flex;
+  justify-content: flex-end; }
+
+.nav__prop {
+  background-color: rgba(77, 77, 77, 0.8);
+  border-radius: 10px 0 0 10px; }
+
+.header__nav__button {
+  font-size: 2rem;
+  line-height: 1;
+  background-color: transparent;
+  border: none;
+  color: rgba(228, 195, 19, 0.8); }
+  .header__nav__button:focus {
+    border: none; }
+  .header__nav__button:active {
+    border: none; }
+
+@media (min-width: 1000px) {
+  .header__nav__button {
+    display: none; } }
+
+.row__img-portada {
+  position: relative;
+  width: 100%; }
+
+.div__contenedor-portada {
+  position: absolute;
+  top: 25%;
+  right: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; }
+
+.div__p-portada {
+  font-size: 5rem;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0;
+  line-height: 5.5rem; }
+
+.div__boton-portada {
+  padding: 15px 30px;
+  background-color: rgba(228, 195, 19, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-top: 60px; }
+  .div__boton-portada:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5); }
+
+h1 {
+  padding: 0px 0 80px 0;
+  font-size: 3rem;
+  font-weight: 100;
+  font-style: italic; }
+
+h2 {
+  color: #4d4d4d;
+  font-size: 3rem; }
+
+h3 {
+  color: white;
+  text-align: center; }
+
+h5 {
+  color: white; }
+
+h6 {
+  color: white; }
+
+.fondo-instrumentos {
+  background-image: url(../imagenes/cefiro-fdo-instrumentos.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.div__row-instrumentos-a {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(160, 151, 151, 0.8);
+  padding: 50px 0 0 0;
+  border-radius: 20px 20px 0 0; }
+
+.div__row-instrumentos-b {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(160, 151, 151, 0.8);
+  padding: 50px 0 50px 0;
+  border-radius: 0 0 20px 20px; }
+
+.div__col-instrumentos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  padding: 0; }
+
+.div__a__img-instrumento {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px; }
+
+.div__a__img-hover {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .div__a__img-hover:hover {
+    opacity: 1; }
+
+.h2-borde {
+  color: white;
+  background-color: #e4c313;
+  width: 100%;
+  text-align: center; }
+
+.fondo-taller {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  padding: 100px 0 300px 0; }
+
+#eltaller {
+  color: white; }
+
+.container-grilla {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1000px; }
+
+.grilla-taller {
+  position: absolute;
+  top: -250px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-areas: "img-1 img-2 img-2" "img-1 img-3 img-4" "img-5 img-3 img-4" "img-6 img-7 img-7" "img-6 img-8 img-8"; }
+
+.img-500-500 {
+  width: 500px;
+  height: 500px;
+  object-fit: cover; }
+
+.img-500-250 {
+  width: 500px;
+  height: 250px;
+  object-fit: cover; }
+
+.img-250-500 {
+  width: 250px;
+  height: 500px;
+  object-fit: cover; }
+
+.img-grid-1 {
+  grid-area: img-1; }
+
+.img-grid-2 {
+  grid-area: img-2; }
+
+.img-grid-3 {
+  grid-area: img-3; }
+
+.img-grid-4 {
+  grid-area: img-4; }
+
+.img-grid-5 {
+  grid-area: img-5; }
+
+.img-grid-6 {
+  grid-area: img-6; }
+
+.img-grid-7 {
+  grid-area: img-7; }
+
+.img-grid-8 {
+  grid-area: img-8; }
+
+.div__form-contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../imagenes/cefiro-T-01.jpg);
+  background-size: 350px;
+  background-repeat: no-repeat;
+  margin-top: 100px;
+  margin-bottom: 250px; }
+
+form {
+  width: 100%;
+  background-color: rgba(77, 77, 77, 0.9);
+  padding: 20px 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin: auto;
+  box-shadow: 0 5px 10px gray; }
+
+.div-input {
+  margin-bottom: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: none;
+  width: 100%; }
+
+textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: none;
+  width: 100%;
+  max-width: 100%;
+  min-height: 100px;
+  max-height: 400px; }
+
+.contacto__div-botones {
+  display: flex;
+  justify-content: flex-end; }
+
+.form__boton-enviar {
+  border: none;
+  box-sizing: border-box;
+  font-size: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  background-color: rgba(228, 195, 19, 0.8);
+  padding: 10px 40px;
+  color: white;
+  transition: all .5s; }
+  .form__boton-enviar:hover {
+    box-shadow: 0 0 20px white; }
+
+.form__boton-borrar {
+  border: none;
+  box-sizing: border-box;
+  font-size: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+  margin-right: 20px;
+  color: white; }
+  .form__boton-borrar:hover {
+    text-decoration: underline; }
+
+.fondo-1591 {
+  position: relative;
+  background-color: #1D3C54;
+  height: 550px;
+  display: flex;
+  justify-content: center; }
+
+.cartel-1591 {
+  position: absolute;
+  top: -150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  width: 80%; }
+
+.servicios-1591 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px; }
+
+.logo-1591 {
+  width: 150px;
+  margin: 100px 0 70px 0; }
+
+.p-1591 {
+  font-size: 1.3rem;
+  margin-bottom: 100px; }
+
+.div__row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.icon-instagram-1591 {
+  color: #222;
+  margin: 50px 10px 30px 10px;
+  font-size: 4rem; }
+  .icon-instagram-1591:hover {
+    color: rgba(34, 34, 34, 0.7); }
+
+.icon-facebook2-1591 {
+  color: #222;
+  margin: 50px 10px 30px 10px;
+  font-size: 4rem; }
+  .icon-facebook2-1591:hover {
+    color: rgba(34, 34, 34, 0.7); }
+
+.footer {
+  background-color: #222;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.footer-inst {
+  background-color: #222;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px; }
+
+.instrumentos__img-grande {
+  width: 100%;
+  height: 500px;
+  object-fit: cover; }
+
+.row__instrumentos-ext {
+  margin: auto;
+  margin-top: 100px;
+  background-color: rgba(160, 151, 151, 0.5);
+  border-radius: 10px;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  width: 90%; }
+
+.instrumentos__img-chicas {
+  width: 32%;
+  height: 150px;
+  object-fit: cover; }
+
+.carrousel-flecha {
+  background-color: rgba(228, 195, 19, 0.8); }
+
+@media (max-width: 800px) {
+  .instrumentos__img-grande {
+    height: 300px; }
+  .instrumentos__img-chicas {
+    height: 100px;
+    width: 32.6%;
+    margin-top: 20px; } }
+
+@media (max-width: 450px) {
+  .row__instrumentos-ext {
+    padding: 40px 10px 40px 20px; }
+  .instrumentos__img-grande {
+    height: 200px; }
+  .instrumentos__img-chicas {
+    height: 80px;
+    width: 32.1%;
+    margin-top: 10px; }
+  h6 {
+    text-align: center; }
+  h5 {
+    text-align: center; } }
+
+@media (max-width: 1366px) {
+  .div__contenedor-portada {
+    top: 10%; } }
+
+@media (max-width: 1025px) {
+  .container-grilla {
+    height: 800px; }
+  .img-500-500 {
+    width: 300px;
+    height: 400px; }
+  .img-500-250 {
+    width: 300px;
+    height: 200px; }
+  .img-250-500 {
+    width: 150px;
+    height: 400px; }
+  .div__p-portada {
+    font-size: 2rem;
+    line-height: 2.5rem; } }
+
+@media (max-width: 450px) {
+  h4 {
+    text-align: center;
+    font-size: 1.2rem; }
+  .container-grilla {
+    height: 650px; }
+  .grilla-taller {
+    grid-template-columns: 100%;
+    grid-template-areas: "img-1" "img-2" "img-3" "img-4"; }
+  .img-500-500 {
+    width: 300px;
+    height: 250px; }
+  .img-500-250 {
+    width: 300px;
+    height: 200px; }
+  .img-250-500 {
+    width: 300px;
+    height: 200px; }
+  .img-grid-5 {
+    display: none; }
+  .img-grid-6 {
+    display: none; }
+  .img-grid-7 {
+    display: none; }
+  .img-grid-8 {
+    display: none; }
+  .div__contenedor-portada {
+    top: 60px; }
+  .div__p-portada {
+    font-size: 1rem;
+    line-height: 1.5rem; }
+  .div__boton-portada {
+    margin-top: 20PX;
+    font-size: 1rem;
+    padding: 5px 10px; }
+  .div__col-instrumentos {
+    padding: 0; }
+  h1 {
+    font-size: 1.4rem; }
+  h2 {
+    font-size: 1.4rem; }
+  .fondo-instrumentos {
+    background-image: none; } }

@@ -1,0 +1,16 @@
+// Clases body
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+@import "header.scss";
+@import "index.scss";
+@import "instrumentos.scss";
+@import "medias.scss";
